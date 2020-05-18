@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.grid {
+	display: grid;
+	/*grid-template-columns: 4;*/
+	grid-template-rows: 9;
+}
+
+.menu{
+	display: grid;
+	/*border: 1px solid blue;*/
+	grid-template-columns: 8fr 1fr 1fr 1fr 1fr 0.5fr;
+	grid-template-areas: 
+	"title home products contacts aboutus";
+	font-family: 'ABeeZee';font-size: 16px;
+	text-justify: inter-cluster;
+}
+
+.title{
+	/*border: 1px solid black;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;*/
+	margin-top: 15px;
+	margin-bottom: 10px;
+	margin-left: 45px;
+	font-family: 'Abel';
+	font-size: 32px;
+	letter-spacing: 3px;
+	word-wrap: nowrap;
+	word-spacing: 10px;
+}
+
+.home{
+	padding-top: 40%;
+	/*border: 1px solid black;*/
+	
+}
+
+.menu a{
+	color: black;
+}
+
+.menu a:hover {
+	color: blue;
+}
+
+.products{
+	padding-top: 40%;
+	/*border: 1px solid black;*/
+}
+
+.contacts{
+	padding-top: 40%;
+	/*border: 1px solid black;*/
+	
+}
+
+.aboutus{
+	padding-top: 40%;
+	/*border: 1px solid black;*/
+	
+}
+
+.welcome{
+	display: grid;
+	/*border: 1px solid black;*/
+	justify-content: center;
+	grid-template-columns: 8fr 4fr 2fr;
+	grid-template-areas: 
+	" introimage introquote"
+}
+
+#introimg{
+	border-radius: 5px 500px 500px 5px;
+	height: 400px;
+	width: 600px;
+	/*border: 1px solid black;*/
+}
+
+.introquote{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 3px;
+	word-wrap: nowrap;
+	word-spacing: 10px;
+	margin-top: 70px;
+	/*border: 1px solid black;*/
+}
+
+.introquote h4{
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.introquote h4 a{
+	color: white;
+	background-color: #080842;
+	padding: 15px;
+}
+
+.featuredproducts{
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	color: #06062d;
+}
+
+.topchoices {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: 
+	"mixveg berries peas"
+}
+
+.topchoices #choice{
+	border: 1px solid #94b8b8;
+	height: 300px;
+	width: 300px;
+	margin-left: 90px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+}
+
+.topchoices #choice img{
+	height: 80%;
+	width: 100%;
+}
+
+.topchoices #choice .imgdes{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.viewall {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 70px;
+	font-size: 20px;
+}
+
+.viewall a{
+	color: black;
+}
+
+.brand {
+	background-color: #f2e6ff;
+	margin-top: 140px;
+}
+
+.brand #about {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	color: #06062d;
+	/*background-color: #f0f0f5;*/
+}
+
+/*.brand #companyimage{
+	width: 300px;
+	height: 300px;
+	margin-left: 90px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+
+.brand #companydescription{
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 200px;
+	margin-right:200px;
+	margin-bottom: 40px;
+}
+
+#contact {
+	margin-top: 140px;
+}
+
+#contact #contacts {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	color: #06062d;
+	/*background-color: #f0f0f5;*/
+}
+
+#contact #companycontact{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
